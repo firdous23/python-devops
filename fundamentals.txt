@@ -1,0 +1,5 @@
+1.we can install diff packages in venvs according to our requirements to isolate the dependencies. virtual env creation ---> python -m venv .venv
+this cmd will crate a .venv folder and we needs to activate it using --> source .venv/bin/activate
+now if you run which python you will see the new venv path there. use deactivate cmd to stop using that venv.
+pip freeze > req.txt to see the installed dependencies and save it in file.pip list to see the installed packages.
+python REPL-means read evaluate print loop, its act like a cli just type python the you can execute the commands and exit to stop the loop.
